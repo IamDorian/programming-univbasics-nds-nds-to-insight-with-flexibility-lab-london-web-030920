@@ -76,7 +76,8 @@ total = {}
  i = 0 
  while i < collection.length do 
    binding.pry
-     x = collection[i][:worldwide_gross] = total
+     studio_name = collection[i][:studio]
+     total = collection[i][:worldwide_gross]  
      
      i += 1 
  end
