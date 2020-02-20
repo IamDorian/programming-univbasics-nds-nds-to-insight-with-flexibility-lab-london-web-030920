@@ -51,7 +51,9 @@ def movies_with_director_key(name, movies_collection)
  var = []
  i = 0
  while i < movies_collection.length do 
-     binding.pry   
+      k = movies_collection[i] 
+      binding.pry
+      i += 1
  end
 end
 
