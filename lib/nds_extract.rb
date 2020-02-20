@@ -87,10 +87,11 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   arr = []
   index = 0 
-  while index < collection.length do 
-        x = collection[i]
+  while index < source.length do 
+        x = source[i]
         arr << movies_with_director_key()
         index += 1
+        binding.pry
   end
   arr
 end
