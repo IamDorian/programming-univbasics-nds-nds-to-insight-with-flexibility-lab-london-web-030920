@@ -92,7 +92,7 @@ def movies_with_directors_set(source)
        
         arr << x
         index += 1
-         
+         binding.pry
   end
   arr
 end
