@@ -88,11 +88,11 @@ def movies_with_directors_set(source)
   arr = []
   index = 0 
   while index < source.length do 
-        x = source[index]
-        binding.pry
-        arr << movies_with_director_key(source,x)
+        x = source[index][:movies]
+       
+        arr << x
         index += 1
-        
+         binding.pry
   end
   arr
 end
