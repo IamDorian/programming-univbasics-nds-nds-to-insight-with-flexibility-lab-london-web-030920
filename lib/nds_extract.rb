@@ -80,6 +80,7 @@ def gross_per_studio(collection)
       total += 1
     end
      i += 1 
+     binding.pry
  end
  array
 end
