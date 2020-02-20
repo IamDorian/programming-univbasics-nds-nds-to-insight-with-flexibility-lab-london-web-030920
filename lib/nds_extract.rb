@@ -74,8 +74,11 @@ def gross_per_studio(collection)
  array = []
  i = 0 
  while i < collection.length do 
-     total = collection[i][:movies][:worldwide_gross]
-     array << total[i]
+     total = 0
+    while total < collection[i].length do
+      array << collection[i][total] 
+      total += 1
+    end
      i += 1 
  end
  array
