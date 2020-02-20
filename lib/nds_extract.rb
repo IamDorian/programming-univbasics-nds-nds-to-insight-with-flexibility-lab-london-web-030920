@@ -77,7 +77,6 @@ total = []
  while i < collection.length do 
      total << collection[i][:worldwide_gross]
      i += 1 
-    
  end
  total
 end
