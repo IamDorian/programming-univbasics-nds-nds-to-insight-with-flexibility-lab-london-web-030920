@@ -96,7 +96,7 @@ def movies_with_directors_set(source)
         # binding.pry
   end
   arr
-  #binding.pry
+  binding.pry
 end
 
 # ----------------    End of Your Code Region --------------------
