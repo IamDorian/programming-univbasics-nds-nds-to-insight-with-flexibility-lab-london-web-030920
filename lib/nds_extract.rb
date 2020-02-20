@@ -93,10 +93,10 @@ def movies_with_directors_set(source)
        movies_collection = source[index][:movies]
         arr << movies_with_director_key(name, movies_collection)
         index += 1
-        # binding.pry
+        
   end
   arr
-  binding.pry
+ 
 end
 
 # ----------------    End of Your Code Region --------------------
