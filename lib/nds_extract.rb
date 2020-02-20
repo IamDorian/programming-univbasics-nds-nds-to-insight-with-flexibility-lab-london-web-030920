@@ -42,13 +42,17 @@ def movies_with_director_key(name, movies_collection)
   # INPUT:
   # * name: A director's name
   # * movies_collection: An Array of Hashes where each Hash represents a movie
-  binding.pry
+  
   # RETURN:
   #
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
- 
+ var = []
+ i = 0
+ while i < movies_collection.length do 
+     binding.pry   
+ end
 end
 
 
