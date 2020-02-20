@@ -76,7 +76,7 @@ total = {}
  i = 0 
  while i < collection.length do 
    #binding.pry
-     studio_name = collection[i][:studio]
+     studio_name = collection[i][:studio] 
      if !total[studio_name]
      total[studio_name] = collection[i][:worldwide_gross]  
    else 
