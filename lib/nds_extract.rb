@@ -55,6 +55,7 @@ def movies_with_director_key(name, movies_collection)
       var << movie_with_director_name(name,k)
       i += 1 
  end
+ var
 end
 
 
